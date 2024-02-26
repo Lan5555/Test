@@ -179,7 +179,7 @@ let nextPage4 = document.getElementById("quizContainer");
       {question:"What is the acronym 'HTC' stand for?", options:["High tech company ","High technical computer", "High tech computer","Higher trade company"],correctAnswerIndex:2},
       {question:"What does Virus stand for?",options:["Vital Information Resource Under Siege","Viral intelligence technology","Vital instruction license","Valuable Documents unlicensed"],correctAnswerIndex:0},
       
-   {question:"Solve the equation: 2x + 5 = 15", options:["x = 5", "x = 7", "x = 8", "x = 10"], correctAnswerIndex:3},
+   {question:"Solve the equation: 2x + 5 = 15", options:["x = 5", "x = 7", "x = 8", "x = 10"], correctAnswerIndex:0},
    {question:"Calculate the area of a rectangle with length 8 cm and width 5 cm", options:["20 sq cm", "30 sq cm", "40 sq cm", "50 sq cm"], correctAnswerIndex:2},
    {question:"If a triangle has angles of 30°, 60°, and 90°, what is the measure of the third angle?", options:["45°", "60°", "75°", "90°"], correctAnswerIndex:0},
    {question:"What is the value of π (pi) to two decimal places?", options:["3.14", "3.16", "3.18", "3.20"], correctAnswerIndex:0},
@@ -190,7 +190,7 @@ let nextPage4 = document.getElementById("quizContainer");
    {question:"Simplify: 3/5 + 2/3", options:["1/15", "11/15", "13/15", "15/18"], correctAnswerIndex:1},
    {question:"If the radius of a circle is 6 cm, what is its circumference? (Use π = 3.14)", options:["18.84 cm", "37.68 cm", "56.52 cm", "75.36 cm"], correctAnswerIndex:1},
    {question:"Solve the system of equations: 2x + y = 8, 3x - 2y = 1", options:["x = 2, y = 4", "x = 3, y = 2", "x = 4, y = 0", "x = 5, y = -2"], correctAnswerIndex:0},
-   {question:"Find the derivative of f(x) = 3x^2 - 2x + 1", options:["f'(x) = 6x - 2", "f'(x) = 6x + 2", "f'(x) = 4x - 2", "f'(x) = 4x + 1"], correctAnswerIndex:2},
+   {question:"Find the derivative of f(x) = 3x^2 - 2x + 1", options:["f'(x) = 6x - 2", "f'(x) = 6x + 2", "f'(x) = 4x - 2", "f'(x) = 4x + 1"], correctAnswerIndex:0},
    {question:"If A and B are matrices, what is the result of the matrix multiplication AB if A is a 3x2 matrix and B is a 2x4 matrix?", options:["A 3x4 matrix", "A 2x2 matrix", "A 3x2 matrix", "A 2x4 matrix"], correctAnswerIndex:0}
       
       ];
