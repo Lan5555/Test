@@ -42,7 +42,7 @@ window.onload = function() {
         loader = Swal.fire({
           title: 'Loading resources, please wait!',
           html: '<div id="loading-progress">Progress</div>',
-          allowOutsideClick: false,
+         // allowOutsideClick: false,
           showConfirmButton: false,
           showCancelButton: false,
           heightAuto:false,
