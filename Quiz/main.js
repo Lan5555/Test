@@ -258,6 +258,7 @@ let nextPage4 = document.getElementById("quizContainer");
             
             
             } else {
+               result2();
               Swal.fire({
                 icon: 'success',
                 title: 'Quiz completed!',
@@ -293,6 +294,7 @@ let nextPage4 = document.getElementById("quizContainer");
             if (currentQuestionIndex < quizData.length) {
               loadQuestion();
             } else {
+               result2();
               Swal.fire({
                 icon: 'success',
                 title: 'Quiz completed!',
@@ -444,3 +446,29 @@ function timer() {
     await difficulty();
     game();
   }
+
+  function result2(){
+    let name = document.getElementById("name").value;
+    let score2 = HighScore;
+    
+  // Make a POST request to your Node.js server
+    fetch('http://localhost:3000/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `result=${name}:${score2}`, // Adjust based on your form data
+      })
+      .then(response => response.text())
+      .then(data => {
+        console.log(data); // Output server response
+        // Handle success or further actions if needed
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        // Handle error if necessary
+      });
+    
+    
+  }
+
