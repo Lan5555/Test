@@ -453,7 +453,7 @@ function timer() {
     let score2 = HighScore;
     
   // Make a POST request to your Node.js server
-    fetch('http://10.100.40.118:3000/submit', {
+    fetch('http://192.168.1.128:3000/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
