@@ -364,6 +364,7 @@ function timer() {
         if(left <= -1){
           left = 0
         clearInterval(interval);
+           result2();
         Swal.fire({
           icon:'warning',
           title:'Game over',
@@ -452,7 +453,7 @@ function timer() {
     let score2 = HighScore;
     
   // Make a POST request to your Node.js server
-    fetch('http://localhost:3000/submit', {
+    fetch('http://10.100.40.118:3000/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
